@@ -1,0 +1,38 @@
+@import url(../framework/common.css);
+@import url(button.css);
+@import url(navbar.css);
+@import url(card.css);
+@import url(slider.css);
+@import url(articles.css);
+@import url(block.css);
+@import url(footer.css);
+
+li:last-of-type {
+    margin-right: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.bar-wrapper {
+    height: 70px;
+}
+
+
+@media (min-width: 576px) {
+    .bar-wrapper {
+        background-color: var(--primary-light-color);
+    }
+
+    .container {
+        border-left: 10px solid white;
+        border-right: 10px solid white;
+    }
+}
